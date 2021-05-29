@@ -8,7 +8,11 @@ let array=[];
 for (const key in object) {
     array.push(key)
 }
+
 app.get("/",(req,res)=>{
-    res.send("Rodando");
+    res.send("Rodando "+object[array[0]][1].address);
 })
+
+
+
 app.listen(port,object[array[0]][1].address,()=>console.log(`Server rodando no IP ${object[array[0]][1].address} porta:${port}`))
