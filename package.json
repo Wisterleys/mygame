@@ -4,7 +4,7 @@
   "description": "Jogo usando apenas o DOM",
   "main": "app.js",
   "scripts": {
-    "deploy":"./node_modules/.bin/gh-pages -d public",
+    "deploy":"git push origin main&&./node_modules/.bin/gh-pages -d public",
     "test": "nodemon app.js",
     "start": "node app.js"
   },
