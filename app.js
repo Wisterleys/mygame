@@ -8,9 +8,12 @@ let array=[];
 for (const key in object) {
     array.push(key)
 }
+app.get("/teste",(req,res)=>{
+    res.send("oi");
+})
 
 app.get("/",(req,res)=>{
-    res.send("Rodando "+object[array[0]][1].address);
+    res.sendFile(__dirname+"/public/index.html");
 })
 
 
