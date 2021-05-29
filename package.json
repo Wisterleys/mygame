@@ -1,0 +1,23 @@
+{
+  "name": "game",
+  "version": "1.0.0",
+  "description": "Jogo usando apenas o DOM",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wisterleys/mygame.git"
+  },
+  "author": "Wisterleys",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Wisterleys/mygame/issues"
+  },
+  "homepage": "https://github.com/Wisterleys/mygame#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
